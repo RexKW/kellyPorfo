@@ -1,13 +1,49 @@
+
+"use client";
+
+import { useEffect, useRef } from "react";
 import Image from "next/image";
+import Navbar from "../components/navbar";
+import { nordhin } from "../fonts";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { useAboutAnimation, useAboutImageAnimation } from "../hooks/aboutAnimation";
+
+
 
 export default function About() {
-  return (
-    <div className="flex min-h-screen relative items-center justify-center">
-      <Image src={'/home/ThePortfolioAsset.svg'} alt="portfo" className="absolute z-2" width={900} height={900}/>
-      <div className="w-[15vw]  h-screen bg-[#9f1d21] absolute left-0">
-      </div>
-      <div className="w-[15vw]  h-screen bg-[#9f1d21] absolute right-0">
-      </div>
-    </div>
-  );
+    const containerRef = useRef<HTMLDivElement>(null);
+    const imageRef = useRef<HTMLImageElement>(null)
+    useAboutAnimation(containerRef);
+    useAboutImageAnimation(imageRef)
+
+    return (
+        <div className="flex min-h-screen bg-white relative overflow-hidden items-center justify-center">
+            <img src="/about/redCornerRight.svg" className="absolute w-[150%] md:w-[60%] right-[-45%] md:right-[-15%] top-[-20%]  md:top-[-30%]" alt="" />
+            <img src="/about/redCornerLeft.svg" className="absolute w-[150%] md:w-[60%] left-[-25%] md:left-[-15%] bottom-[-10%] md:bottom-[-30%]" alt="" />
+            <Navbar />
+            <div className="flex flex-col gap-5 items-center  pb-5 px-10 md:px-0 md:pb-0 md:flex-row">
+                <div className="flex flex-col gap-2 md:gap-5 order-2 md:order-1 md:w-[50%] md:pl-20 md:pr-10">
+                    <p className="text-4xl md:text-6xl text-[#a00a0a] text-center md:text-start font-bold">Hello my name is</p>
+                    <div className="flex justify-center md:justify-start mb-5 md:mb-0">
+                        <div ref={containerRef} className={`text-9xl ${nordhin.className} opacity-0 kelly flex text-center gap-3 md:text-start font-nordhin`}>
+                            <p className="kelly-letter text-[#d44a9a] rotate-[-15deg] px-2">K</p>
+                            <p className="kelly-letter text-[#a00a0a]">e</p>
+                            <p className="kelly-letter text-[#116b09]">l</p>
+                            <p className="kelly-letter text-[#1e6bed]">l</p>
+                            <p className="kelly-letter text-[#ff5757] rotate-15 px-2">y</p>
+                        </div>
+                    </div>
+                    <p className="text-[#a00a0a] text-3xl mb-5 md:mb-0 text-center md:text-start md:w-[75%]">Im a Graphic Designer based in
+                        indonesia currently pursuing degree
+                        at Visual Comunication Design at
+                        Universitas Ciputra Surabaya.</p>
+                    <p className="text-[#a00a0a] text-3xl text-center md:text-start md:w-[75%]">I am very passionate in doing
+                        visual branding design especially
+                        with whimsycal pop art style</p>
+                </div>
+                <Image ref={imageRef} src={'/about/kelly.jpg'} alt="kelly" className="w-full order-1 relative z-2 md:order-2 basis-1/2 px-5 pt-30 md:pr-5" width={600} height={450} />
+            </div>
+        </div>
+    );
 }

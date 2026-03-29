@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-center md:justify-start items-start fixed top-5 w-[60vw]">
+    <nav className="flex justify-center md:justify-start items-start fixed z-100 top-5 w-[60vw]">
       <ul className="flex justify-center md:justify-start gap-5">
         <li>
             <Link href={'/'}>
