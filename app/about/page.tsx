@@ -34,13 +34,10 @@ export default function About() {
                             <p className="kelly-letter text-[#ff5757] rotate-15 px-2">y</p>
                         </div>
                     </div>
-                    <p className="text-[#a00a0a] text-3xl mb-5 md:mb-0 text-center md:text-start md:w-[75%]">Im a Graphic Designer based in
-                        indonesia currently pursuing degree
-                        at Visual Comunication Design at
-                        Universitas Ciputra Surabaya.</p>
-                    <p className="text-[#a00a0a] text-3xl text-center md:text-start md:w-[75%]">I am very passionate in doing
-                        visual branding design especially
-                        with whimsycal pop art style</p>
+                    <p className="text-[#a00a0a] text-xl mb-5 md:mb-0 text-center md:text-start md:w-[75%]">I’m a Visual Communication Design student who loves playing with bold, eccentric, and colorful elements. Pop art and maximalism are at the core of my creative identity.
+I approach my designs with precision and emotional balance, while spreading a sense of joy and vibrancy in every piece I create.
+I’m always crafting fresh works full of spontaneous ideas, so stay tuned and watch me cook up my next designs!</p>
+                    <p className="text-[#a00a0a] text-xl text-center md:text-start md:w-[75%]">In my free time, when I’m not designing, I love spending time reading books and traveling solo to discover new and exciting sources of inspiration.</p>
                 </div>
                 <Image ref={imageRef} src={'/about/kelly.jpg'} alt="kelly" className="w-full order-1 relative z-2 md:order-2 basis-1/2 px-5 pt-30 md:pr-5" width={600} height={450} />
             </div>
