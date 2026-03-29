@@ -1,65 +1,21 @@
 import Image from "next/image";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div className="flex min-h-screen bg-white bg-cover bg-center bg-no-repeat bg-[url(/home/homeBG.png)] relative items-center justify-center overflow-hidden">
+      <Navbar/>
+      <Image src={'/home/fruits.png'} alt="fruit" className="absolute z-3 left-[-15%] top-[20%] lg:left-[8%] w-[150px] lg:w-[300px]" width={300} height={300}/>
+      <Image src={'/home/clover.png'} alt="clover" className="absolute z-2 left-[-45%] lg:left-[-5%] w-[250px] lg:w-[450px] top-[-10%] " width={500} height={500}/>
+      <Image src={'/home/fish.png'} alt="fish" className="absolute z-3 rotate-30 right-[-35%] lg:rotate-0 bottom-0 lg:right-0 lg:bottom-[-10%] " width={750} height={750}/>
+      <Image src={'/home/tape.png'} alt="tape" className="absolute z-1 right-[-5%] lg:right-0 top-[55%] lg:top-[25%]  w-[60px] lg:w-[120px]" width={120} height={120}/>
+      <Image src={'/home/graphicDesignStar.png'} alt="starGraphDes" className="absolute z-1 left-[-20%] lg:left-[-5%] bottom-[-10%] lg:bottom-[-20%]" width={600} height={600}/>
+      <Image src={'/home/starAsset.png'} alt="star" className="absolute z-1 right-[-30%] lg:right-0 top-[10%] lg:top-[-15%]  w-[300px] lg:w-[600px]" width={600} height={600}/>
+      <Image src={'/home/thePortfolioAsset.svg'} alt="portfo" className="absolute z-2" width={900} height={900}/>
+      <div className="w-[15vw]  h-screen bg-[#9f1d21] absolute left-0">
+      </div>
+      <div className="w-[15vw]  h-screen bg-[#9f1d21] absolute right-0">
+      </div>
     </div>
   );
 }
