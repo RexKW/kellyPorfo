@@ -33,7 +33,7 @@ export default function Home() {
         <div className="border-2 border-[#9f1d21] absolute top-5 rounded-2xl px-5 md:px-10 py-2 text-lg md:text-xl text-[#9f1d21]">
           <p>Projects</p>
         </div>
-        <div className="flex flex-col py-30 px-10 md:px-5 md:py-0 md:flex-row gap-5 justify-center items-start w-full h-full">
+        <div className="flex flex-col py-30 px-10 md:px-5 md:flex-row gap-5 justify-center items-start w-full h-full">
           <div className="flex flex-col justify-start">
             <Link href={'/main-work'}>
               <Image alt="" width={500} height={300} src={'/home/mainWorkCover.png'} />
@@ -47,11 +47,23 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex flex-col justify-start">
-                            <Link href={'/'}>
-                <Image alt="" width={500} height={300} src={'/home/univWorkCover.png'}/>
-                <p className=" text-2xl text-center md:text-4xl font-bold text-[#9f1d21]">University <br/>Projects</p>
-                </Link>
+            <Link href={'/'}>
+              <Image alt="" width={500} height={300} src={'/home/univWorkCover.png'} />
+              <p className=" text-2xl text-center md:text-4xl font-bold text-[#9f1d21]">University <br />Projects</p>
+            </Link>
           </div>
+        </div>
+        <div className="flex flex-col items-start w-full px-10 py-20">
+          <p className="text-8xl font-bold text-[#9f1d21]">Kelly<br />Christiana</p>
+          <p className="text-3xl font-bold text-[#9f1d21]">Contact me here !</p>
+          <p className="text-2xl text-[#9f1d21]"><br/>applepi794@gmail.com
+            <br/>
+            <br/>
+            087702848078
+            <br/>
+            <br/>
+            @kelly.christiana02
+          </p>
         </div>
       </div>
     </div>
