@@ -1,10 +1,10 @@
 'use client'
 
 import Image from "next/image";
-import Monelie from "./components/monelie";
-import JonBakery from "./components/jonBakery";
+import Monelie from "../../components/main-work/monelie";
+import JonBakery from "../../components/main-work/jonBakery";
 import { useState } from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../../components/home/navbar";
 
 
 export default function MainWork() {

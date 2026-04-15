@@ -3,7 +3,7 @@ import localFont from 'next/font/local'
 export const nordhin = localFont({
   src: [
     {
-      path: './fonts/Nordhin.ttf',
+      path: '../public/fonts/Nordhin.ttf',
       weight: '400',
       style: 'normal',
     },
