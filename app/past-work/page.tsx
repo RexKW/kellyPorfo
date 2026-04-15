@@ -33,7 +33,7 @@ export default function PastWork() {
   }
 
   return (
-    <div className="flex flex-col bg-white relative">
+    <div className="flex flex-col items-center bg-white relative">
       <Navbar />
       {page != 0 &&
         <button onClick={prevPage} className="fixed w-20 h-20 bottom-5 left-5 rounded-full justify-center flex items-center bg-red-400 z-10">

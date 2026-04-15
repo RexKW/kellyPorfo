@@ -11,7 +11,7 @@ export default function ChupaChupz() {
 
       {/* content */}
       <div className="flex flex-col justify-center h-[40vh] lg:h-screen items-center relative z-1">
-        <Image width={1200} height={600} src={'/pastWork/nezma/nezmaDarkLogo.svg'} alt="" className="w-[25%]" />
+        <Image width={1200} height={600} src={'/universityWork/chups/chupaChupsLogo.svg'} alt="" className="w-[25%]" />
 
       </div>
 
