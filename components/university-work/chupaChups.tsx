@@ -11,7 +11,7 @@ export default function ChupaChupz() {
 
       {/* content */}
       <div className="flex flex-col justify-center h-[40vh] lg:h-screen items-center relative z-1">
-        <Image width={1200} height={600} src={'/universityWork/chups/chupaChupsLogo.svg'} alt="" className="w-[25%]" />
+        <Image width={1200} height={600} src={'/universityWork/chups/chupaChupsLogo.svg'} alt="" className="w-[50%] lg:w-[25%]" />
 
       </div>
 
@@ -33,9 +33,9 @@ export default function ChupaChupz() {
         <img src="/universityWork/chups/chupaChupsBG.jpg" className='w-full h-auto relative z-0' alt="" />
         <p className='bottom-0 right-0 absolute z-2 text-[#432565] text-4xl lg:text-6xl font-bold'>POSTER<br/>MOCK UP</p>
       </div>
-      <div className='flex relative flex-row  bg-cover justify-between px-10 lg:px-60 items-center relative h-[80vh] lg:h-[150vh] w-full'>
-        <p className='top-1/4 left-0 absolute z-2 text-[#432565] text-3xl rotate-[270deg] lg:text-6xl font-bold'>POSTER<br/>DESIGN</p>
-        <img src="/universityWork/chups/posterchupaChups.png" className='h-[75%] w-auto right-10 absolute' alt="" />
+      <div className='flex relative flex-row  bg-cover justify-between px-10 lg:px-60 items-center relative h-[50vh] lg:h-[150vh] w-full'>
+        <p className='top-1/4 left-[-5%] lg:left-0 absolute z-2 text-[#432565] text-3xl rotate-[270deg] lg:text-6xl font-bold'>POSTER<br/>DESIGN</p>
+        <img src="/universityWork/chups/posterchupaChups.png" className='w-[70%] top-1/6 h-auto lg:h-[75%] lg:w-auto right-2 lg:right-10 absolute' alt="" />
       </div>
     </div>
   )
