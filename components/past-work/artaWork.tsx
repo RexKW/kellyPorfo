@@ -18,14 +18,9 @@ export default function ArtaWork() {
         <div className="flex-flex-col justify-center items-center relative z-1">
           <Image width={1200} height={600} src={'/pastWork/artaMedia/artaHeader.png'} alt="" className="w-screen h-auto" />
           <div className="bg-white w-full h-full lg:h-[50vh] justify-center items-center relative">
-            <p className="text-center text-[#0b4e96] py-10 text-xl z-2 px-5 lg:px-10">Monelie adalah toko roti dan kue asal Surabaya barat
-              dengan branding identity minimalis yang kuat dengan
-              warna tosca. Tujuan dari rebranding untuk event Sakura
-              Festival di Pakuwon Mall adalah untuk membawakan
-              penampilan yang lebih segar menyesuaikan konsep
-              event, dan dengan menyambut menu baru yang
-              bertema sakura. Sentuhan bunga sakura dan warna pink
-              membuat Monelie semakin menyatu dengan tema</p>
+            <p className="text-center text-[#0b4e96] py-10 text-xl z-2 px-5 lg:px-10">Arta Media Tama adalah pabrik percetakan dengan branding
+              minimalist dan elegan . Arta Media Tama masih tidak mempunyai
+              visual identitas ataupun komunikasi branding untuk digital marketing di sosial media. Maka dari itu saya menggabungkan konsep minimalis dan sentuhan pop up yang berwarna namun tidak meninggalkan jejak elegan dari Arta Media Tama</p>
           </div>
         </div>
       </div>

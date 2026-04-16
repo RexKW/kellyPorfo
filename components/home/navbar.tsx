@@ -8,14 +8,14 @@ export default function Navbar() {
       <ul className="flex justify-center lg:justify-start gap-5">
         <li>
             <Link href={'/'}>
-                <div className="border-2 border-[#9f1d21] rounded-2xl px-5 md:px-10 py-2 text-lg md:text-xl text-[#9f1d21]">
+                <div className="border-2 border-[#9f1d21] bg-[#9f1d21] rounded-2xl px-5 md:px-10 py-2 text-lg md:text-xl text-white animation transition duration-200 hover:bg-white hover:text-[#9f1d21]">
                     <p>Home</p>
                 </div>
             </Link>
         </li>
         <li>
             <Link href={'/contact'}>
-                <div className="border-2 border-[#9f1d21] rounded-2xl px-5 md:px-10 py-2 text-lg md:text-xl text-[#9f1d21]">
+                <div className="border-2 border-[#9f1d21] bg-[#9f1d21] rounded-2xl px-5 md:px-10 py-2 text-lg md:text-xl text-white animation transition duration-200 hover:bg-white hover:text-[#9f1d21]">
                     <p>Contact</p>
                 </div>
             </Link>

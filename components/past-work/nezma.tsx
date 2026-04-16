@@ -13,17 +13,8 @@ export default function Nezma() {
       <div className="flex flex-col justify-start pt-30 lg:pt-10 h-content lg:h-screen items-center relative z-0">
         <Image width={1200} height={600} src={'/pastWork/nezma/nezmaDarkLogo.svg'} alt="" className="w-[25%]" />
         <div className='flex flex-col lg:flex-row justify-center items-start text-[#6c2c40] px-10 py-10'>
-          <p className='lg:text-2xl order-2 lg:order-1 pt-10 lg:pt-0 lg:basis-1/2 lg:pr-20'>NEZMA is a beauty product
-            and skincare brand.NEZMA
-            need a new packaging design
-            that leads to feminimity and
-            have a sense of kombucha color
-            due to the new product that
-            contain kombbucha.
-            The combination of
-            elegance and luxury color of
-            deep dark purple and rose gold
-            give of the color of kombucha
+          <p className='lg:text-2xl order-2 lg:order-1 pt-10 lg:pt-0 lg:basis-1/2 lg:pr-20'>NEZMA adalah sebuah brand produk kecantikan dan perawatan kulit. NEZMA membutuhkan desain kemasan baru yang menonjolkan kesan feminin serta memiliki nuansa warna kombucha, seiring dengan produk baru yang mengandung kombucha.
+            Perpaduan warna elegan dan mewah seperti ungu tua yang dalam  dan rose gold menciptakan tampilan yang merepresentasikan warna kombucha.
           </p>
           <Image width={1200} height={600} src={'/pastWork/nezma/nezmaPhoto.png'} alt="" className="h-auto w-full order-1 lg:order-2 lg:h-[50%]  lg:w-auto" />
         </div>
