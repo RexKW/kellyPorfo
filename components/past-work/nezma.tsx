@@ -25,7 +25,7 @@ export default function Nezma() {
             deep dark purple and rose gold
             give of the color of kombucha
           </p>
-          <Image width={1200} height={600} src={'/pastWork/nezma/nezmaPhoto.png'} alt="" className="h-[40%] order-1 lg:order-2 lg:h-[50%]  w-auto" />
+          <Image width={1200} height={600} src={'/pastWork/nezma/nezmaPhoto.png'} alt="" className="h-auto w-full order-1 lg:order-2 lg:h-[50%]  lg:w-auto" />
         </div>
       </div>
       <div className="flex flex-col bg-[#6c2c40] justify-center items-center relative h-[40vh] lg:h-screen w-full">

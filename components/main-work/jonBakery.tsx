@@ -5,7 +5,7 @@ export default function JonBakery() {
   return (
     <div className='flex flex-col overflow-x-hidden bg-white relative'>
       <div className="flex-flex-col overflow-hidden justify-center items-center relative z-1">
-        <Image width={1200} height={600} src={'/mainWork/bakery/JoBakeryBG.png'} alt="" className="w-screen h-auto" />
+        <Image width={1200} height={600} src={'/mainWork/bakery/joBakeryBG.png'} alt="" className="w-screen h-auto" />
         <div className="bg-white w-full h-[45vh] lg:h-[50vh] justify-center items-center relative">
           <img src="/mainWork/bakery/joBakeryLogo.svg" className="absolute left-[50%] translate-x-[-50%] z-2 w-[20%] translate-y-[-75%]" alt="" />
           <p className="text-center lg:text-start text-[#523114] top-10 lg:w-[50%] lg:top-[25%] absolute lg:text-2xl z-2 px-5 lg:px-10">Jonathan's Bakery adalah toko roti asal NTT

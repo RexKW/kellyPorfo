@@ -6,7 +6,7 @@ export default function Monelie() {
     <div className='flex flex-col bg-white relative'>
       <div className="flex flex-col justify-center bg-[#f5b0c7] items-center relative">
         <div className="flex-flex-col justify-center items-center relative z-1">
-          <Image width={1200} height={600} src={'/mainWork/donutBackdrop.png'} alt="" className="w-screen h-auto" />
+          <Image width={1200} height={600} src={'/mainWork/monelie/donutBackdrop.png'} alt="" className="w-screen h-auto" />
           <div className="bg-[#f5b0c7] w-full h-[45vh] lg:h-[50vh] justify-center items-center relative">
             <img src="/mainWork/monelie/monelieGreen.svg" className="absolute left-[50%] translate-x-[-50%] z-2 w-[50%] translate-y-[-75%]" alt="" />
             <div className="bg-[#f5b0c7] w-full h-full blur-lg">

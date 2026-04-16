@@ -6,6 +6,7 @@ import Nezma from "../../components/past-work/nezma";
 import { useState } from "react";
 import Navbar from "@/components/home/navbar";
 import ChupaChupz from "@/components/university-work/chupaChups";
+import AhPek from "@/components/university-work/ahpek";
 
 
 export default function PastWork() {
@@ -14,8 +15,8 @@ export default function PastWork() {
   const nextPage = () => {
     var newPage = page + 1;
 
-    if (newPage > 1) {
-      newPage = 1
+    if (newPage > 2) {
+      newPage = 2
     }
 
     setPage(newPage)
@@ -42,7 +43,7 @@ export default function PastWork() {
         </button>
       }
       {
-        page != 1 &&
+        page != 2 &&
         <button onClick={nextPage} className="fixed w-20 h-20 bottom-5 right-5 rounded-full justify-center flex items-center bg-red-400 z-10">
           <p className="text-xl  text-red-800">&gt; </p>
         </button>
@@ -55,6 +56,11 @@ export default function PastWork() {
 
       {
         page == 1 &&
+        <AhPek />
+      }
+
+      {
+        page == 2 &&
         <Nezma />
       }
 
