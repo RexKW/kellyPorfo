@@ -14,7 +14,7 @@ export default function Home() {
   useHomeAnimation();
 
   return (
-    <div className="flex flex-col bg-white overflow-x-hidden relative">
+    <div className="flex flex-col items-center bg-white overflow-x-hidden relative">
       <Navbar />
       <About/>
       <PortfolioHeader/>

@@ -33,7 +33,7 @@ export default function ChupaChupz() {
         <img src="/universityWork/chups/chupaChupsBG.jpg" className='w-full h-auto relative z-0' alt="" />
         <p className='bottom-0 right-0 absolute z-2 text-[#432565] text-4xl lg:text-6xl font-bold'>POSTER<br/>MOCK UP</p>
       </div>
-      <div className='flex relative flex-row  bg-cover justify-between px-10 lg:px-60 items-center relative h-[50vh] lg:h-[150vh] w-full'>
+      <div className='flex relative flex-row  justify-between px-10 lg:px-60 items-center relative h-[75vh] py-10 lg:h-[150vh] w-full  bg-linear-to-r from-[#e2b6f1] via-[#faffa5] via-[#facbbf] via-[#faffa5] to-[#e2b6f1]'>
         <p className='top-1/4 left-[-5%] lg:left-0 absolute z-2 text-[#432565] text-3xl rotate-[270deg] lg:text-6xl font-bold'>POSTER<br/>DESIGN</p>
         <img src="/universityWork/chups/posterchupaChups.png" className='w-[70%] top-1/6 h-auto lg:h-[75%] lg:w-auto right-2 lg:right-10 absolute' alt="" />
       </div>

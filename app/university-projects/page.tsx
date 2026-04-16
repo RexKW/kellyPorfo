@@ -7,6 +7,7 @@ import { useState } from "react";
 import Navbar from "@/components/home/navbar";
 import ChupaChupz from "@/components/university-work/chupaChups";
 import AhPek from "@/components/university-work/ahpek";
+import Beattles from "@/components/university-work/beatles";
 
 
 export default function PastWork() {
@@ -35,7 +36,7 @@ export default function PastWork() {
   }
 
   return (
-    <div className="flex flex-col items-center bg-white relative">
+    <div className="flex flex-col items-center lg:items-start bg-white relative">
       <Navbar />
       {page != 0 &&
         <button onClick={prevPage} className="fixed w-20 h-20 bottom-5 left-5 rounded-full justify-center flex items-center bg-red-400 z-10">
@@ -61,7 +62,7 @@ export default function PastWork() {
 
       {
         page == 2 &&
-        <Nezma />
+        <Beattles />
       }
 
 
